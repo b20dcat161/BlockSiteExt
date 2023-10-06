@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "My Url Logger",
+  "version": "1.1",
+  "permissions": ["webNavigation", "http://localhost:5000/collect_url"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
